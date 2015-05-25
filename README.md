@@ -17,11 +17,11 @@ This repo contains some simple extensions - see [Extensions for Visual Studio On
 3. Publish the contents of the extension to a local or cloud web server
  * The root of the extension should be at the root of the web server, for example: https://myserver/images/fabrikam-logo.png
 4. Update this extension manifest file:
-  1. Update the `baseUri` field to be the fully-qualified URL to the root of your web server, for example: `https://myserver`
+ * Update the `baseUri` field to be the fully-qualified URL to the root of your web server, for example: `https://myserver`
 6. Install the extension into your Visual Studio Online account
-  1. Navigate to ```https://youraccount.visualstudio.com/_admin/_ext``` (replace youraccount with your real account name)
-  2. Click **Install** and browse to your manifest file, for example extension-me.json
-  3. Click **OK**
+ * Navigate to ```https://youraccount.visualstudio.com/_admin/_ext``` (replace youraccount with your real account name)
+ * Click **Install** and browse to your manifest file, for example extension-me.json
+ * Click **OK**
 
 ## What's available
 
