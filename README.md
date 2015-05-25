@@ -1,6 +1,6 @@
 # Colins ALM Corner VSO Extensions
 
-This repo contains some simple extensions written in TypeScript - see [Extensions for Visual Studio Online](http://www.visualstudio.com/integrate/extensions/overview).
+This repo contains some simple extensions written in TypeScript - see [Extensions for Visual Studio Online](http://www.visualstudio.com/integrate/extensions/overview). For more on how I built this extension, see my [blog post](http://bit.ly/1HENVZa).
 
 ## Getting started
 
