@@ -1,0 +1,23 @@
+﻿{
+    "namespace": "colinsalmcorner.retry-build",
+    "version": "0.0.1",
+    "name": "Retry Build",
+    "description": "Retry a build from Visual Studio Online.",
+    "provider": {
+        "name": "Colin Dembovsky (colinsalmcorner.com)"
+    },
+    "icon": "https://localhost:44300/images/colin.png",
+    "baseUri": "https://localhost:44300",
+    "contributions": {    
+        "vss.build.web#completedBuildActions": [
+            {
+                "id": "retryBuildMenu",
+                "text": "Retry", // on menu
+                "title": "Retry this build", // tooltip
+                "icon": "images/retry.png",
+                "group": "actions",
+                "uri": "main.html"
+            }
+        ]
+    }
+}

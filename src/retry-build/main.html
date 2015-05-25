@@ -1,0 +1,22 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Retry Build</title>
+</head>
+<body>
+    <script src="sdk/scripts/VSS.SDK.js"></script>
+    <p>User will never see this</p>
+    <script type="text/javascript">
+        // Initialize the VSS sdk
+        VSS.init({
+            setupModuleLoader: true,
+        });
+
+        // Wait for the SDK to be initialized, then require the script
+        VSS.ready(function () {
+            require(["scripts/main"], function (main) { });
+        });
+    </script>
+</body>
+</html>
